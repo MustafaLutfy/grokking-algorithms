@@ -1,0 +1,14 @@
+C:\Users\imrga\Algorithmes\bin\Debug\net8.0\Algorithmes.exe
+C:\Users\imrga\Algorithmes\bin\Debug\net8.0\Algorithmes.deps.json
+C:\Users\imrga\Algorithmes\bin\Debug\net8.0\Algorithmes.runtimeconfig.json
+C:\Users\imrga\Algorithmes\bin\Debug\net8.0\Algorithmes.dll
+C:\Users\imrga\Algorithmes\bin\Debug\net8.0\Algorithmes.pdb
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.AssemblyInfoInputs.cache
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.AssemblyInfo.cs
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.csproj.CoreCompileInputs.cache
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.dll
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\refint\Algorithmes.dll
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.pdb
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.genruntimeconfig.cache
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\ref\Algorithmes.dll
