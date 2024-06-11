@@ -1,6 +1,7 @@
-EXERCISES 
+<h2>EXERCISES 📝</h2>
 
-Chapter 1
+<h3>Chapter 1📝</h3>
+
 1.1 Suppose you have a sorted list of 128 names, and you’re searching 
 through it using binary search. What’s the maximum number of 
 steps it would take?
