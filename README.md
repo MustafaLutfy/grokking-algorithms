@@ -40,14 +40,23 @@ Answer: Same as before O(n)
 <h3>Solutions</h3>
 
 1-O(n)
+
 2-O(n)
+
 3-O(1)
+
 4-O(n)
+
 5-O(log n)
+
 6-O(n^1/2)
+
 7-O(n)
+
 8-O(n)
+
 9-O(n^2)
+
 10-O(log10 n)
 
 
