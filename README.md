@@ -39,24 +39,24 @@ Answer: Same as before O(n)
 <h2>Big O notation</h2>
 <h3>Solutions</h3>
 
-1-O(n)
+1-O(n) depends on the count of input linearly 
 
-2-O(n)
+2-O(n) also depends on the count of input lineary
 
-3-O(1)
+3-O(1) the code perform once (one itteration)
 
-4-O(n)
+4-O(n) depends on the count of input lineary 
 
-5-O(log n)
+5-O(log n) each time value is divided by 2 and get smaller to half each itteration
 
-6-O(n^1/2)
+6-O(n^1/2) each time the value equals the square root of the input value n
 
-7-O(n)
+7-O(n) for unbalanced BST 
 
-8-O(n)
+8-O(n) for unorderd BT
 
-9-O(n^2)
+9-O(n^2) each time the first loop run it runs another loop depending on the number of inputs
 
-10-O(log10 n)
+10-O(log10 n) each time value is divided by 10 and get smaller to half each itteration
 
 
