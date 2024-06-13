@@ -12,3 +12,4 @@ C:\Users\imrga\Algorithmes\obj\Debug\net8.0\refint\Algorithmes.dll
 C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.pdb
 C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.genruntimeconfig.cache
 C:\Users\imrga\Algorithmes\obj\Debug\net8.0\ref\Algorithmes.dll
+C:\Users\imrga\Algorithmes\obj\Debug\net8.0\Algorithmes.sourcelink.json
