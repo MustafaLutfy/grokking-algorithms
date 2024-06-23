@@ -222,6 +222,57 @@ public class App
 
             // // Check if list is empty after emptying
             // Console.WriteLine($"Is list empty: {list.IsEmpty()}");
+
+
+
+
+
+
+
+
+
+
+            // LinkedLists.DoublyLinkedList list = new DoublyLinkedList();
+            //   list.Add(10);
+            //   list.Add(20);
+            //   list.Add(30);
+
+            // // Displaying the elements of the list
+            // Console.WriteLine("The list is:");
+            // list.DisplayDouble();
+
+
+
+            // LinkedLists.DoublyLinkedList list = new DoublyLinkedList();
+            //   list.AddAtBeginning(10);
+            //   list.AddAtBeginning(20);
+            //   list.AddAtBeginning(30);
+
+            // // Displaying the elements of the list
+            // Console.WriteLine("The list is:");
+            // list.DisplayDouble();
+
+
+
+
+            // LinkedLists.DoublyLinkedList list = new DoublyLinkedList();
+            // Console.Write("Enter the number of nodes: ");
+            // int n = int.Parse(Console.ReadLine());
+            // for (int i = 1; i <= n; i++)
+            // {
+            //     Console.Write($"Enter data for node {i}: ");
+            //     int data = int.Parse(Console.ReadLine());
+            //     list.Add(data);
+            // }
+            // Console.WriteLine("The list is:");
+            // list.Display();
+            // Console.Write("Enter the data to insert: ");
+            // int insertData = int.Parse(Console.ReadLine());
+            // Console.Write("Enter the position to insert the node: ");
+            // int position = int.Parse(Console.ReadLine());
+            // list.InsertAt(insertData, position);
+            // Console.WriteLine("The list after insertion is:");
+            // list.Display();
     }
 }
 
