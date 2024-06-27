@@ -1,4 +1,4 @@
-﻿using LinkedLists;
+﻿using stack;
 public class App
 {
     public static void Main(string[] args)
@@ -273,6 +273,61 @@ public class App
             // list.InsertAt(insertData, position);
             // Console.WriteLine("The list after insertion is:");
             // list.Display();
+
+
+
+        // CommitHistory history = new CommitHistory();
+        // history.AddCommit(new CommitMessage("Mustafa", "Initial commit"));
+        // history.AddCommit(new CommitMessage("Ali", "Added README"));
+        // history.AddCommit(new CommitMessage("Hassan", "Fixed bugs"));
+        // history.AddCommit(new CommitMessage("Mustafa", "Implemented new feature"));
+
+        // Console.WriteLine("Commit History:");
+        // history.PrintHistory();
+
+        // string filePath = "commitHistory.json";
+        // history.SaveToFile(filePath);
+
+        // CommitHistory newHistory = new CommitHistory();
+        // newHistory.LoadFromFile(filePath);
+
+        // Console.WriteLine("\nLoaded Commit History:");
+        // newHistory.PrintHistory();
+
+
+
+
+
+
+
+
+            // Sample list of shipment orders and IDs
+        List<(int order, int id)> shipmentData = new List<(int, int)>
+        {
+            (1, 100),
+            (2, 101),
+            (3, 102),
+            (4, 103),
+            (5, 104)
+        };
+
+        // Create a stack to represent the shipments
+        Stack<Shipment> shipments = new Stack<Shipment>();
+
+        // Load the shipments into the stack based on order
+        Console.WriteLine("Loading shipments:");
+        foreach (var data in shipmentData)
+        {
+            Shipment shipment = new Shipment(data.id, data.order);
+            shipments.Push(shipment);
+            Console.WriteLine($"Loaded {shipment}");
+        }
+
+        Console.WriteLine("\nUnloading shipments:");
+        // Unload the shipments using recursion
+        ShipmentStack.UnloadShipments(shipments);
+
+
     }
 }
 
