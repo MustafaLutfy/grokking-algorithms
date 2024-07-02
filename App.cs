@@ -1,4 +1,6 @@
-﻿using stack;
+﻿// using stack;
+using Recursion;
+// using LinkedLists;
 public class App
 {
     public static void Main(string[] args)
@@ -421,7 +423,20 @@ public class App
     //         stack.Push(tempStack.Pop());
     //     }
 
-    
+
+    // Recurtion.naturalNumbers(0);
+
+    // int result = Recurtion.sum(5);
+    // Console.WriteLine(result);
+
+
+        int terms = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("The Fibonacci series up to {0} terms is:", terms);
+        for (int i = 0; i < terms; i++)
+        {
+            Console.Write("{0} ", Recurtion.fibonacci(i));
+        }
     }
 
 }
