@@ -430,12 +430,40 @@ public class App
     // Console.WriteLine(result);
 
 
-        int terms = Convert.ToInt32(Console.ReadLine());
+        // int terms = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("The Fibonacci series up to {0} terms is:", terms);
-        for (int i = 0; i < terms; i++)
-        {
-            Console.Write("{0} ", Recurtion.fibonacci(i));
+        // Console.WriteLine("The Fibonacci series up to {0} terms is:", terms);
+        // for (int i = 0; i < terms; i++)
+        // {
+        //     Console.Write("{0} ", Recurtion.fibonacci(i));
+        // }
+
+        // int[][] C = [[0,0,0],[0,0,0],[0,0,0]];
+
+
+        // int result = Recurtion.multiplyTwoMatirx(0,0);
+        
+        // for (int i = 0; i < C.Length; i++)
+        // {
+        //     for (int j = 0; j < C[0].Length; j++)
+        //     {
+        //         Console.Write(C[i][j] + " ");
+        //     }
+        //     Console.WriteLine();
+        // }
+
+        // int[] arr = [3, 6, 8, 10, 1, 2, 1];
+        // QuickSort.Quick_Sort(arr,0,arr.Length-1);
+
+        // for (int i = 0; i < arr.Length; i++)
+        // {
+        //     Console.Write(arr[i] + ",");
+        // }
+
+       int[] array = [3,4,6,8,1,2,9,7,5];
+        MergeSort.mergeSort(array);
+        for (int i = 0; i < array.Length; i++){
+            Console.Write(array[i] + ", ");
         }
     }
 

@@ -26,7 +26,7 @@ class Recurtion
         else
             return fibonacci(n - 1) + fibonacci(n - 2);
     }
-            public static void PrintArray(int[] array,int i)
+    public static void PrintArray(int[] array,int i)
         {
             if (array.Length==i)
             {
@@ -77,4 +77,29 @@ class Recurtion
         }
 
 
+        public static int multiplyTwoMatirx(int i, int j) {
+
+            int[][] A = [[1,2,3],[4,5,6],[7,8,9]];
+            int[][] B = [[1,2,3],[4,5,6],[7,8,9]];
+
+            int Arows = A.Length;
+            int Brows = B.Length;
+            int Bcols = B[0].Length;
+            int Acols = A[0].Length;
+
+            // if(i == Acols || i == Bcols) {
+            //     return 0;
+            // }
+
+            // if(j >= Acols){
+            //     i++;
+            //     j = 0;
+            // }
+
+        int mul = A[i][j] * B[j][i];
+        int sum = 0;
+        sum+= mul;
+        return multiplyTwoMatirx(i,j);
+        
+        }
     }
