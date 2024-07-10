@@ -1,4 +1,5 @@
 ﻿// using stack;
+using System.Runtime.CompilerServices;
 using Recursion;
 // using LinkedLists;
 public class App
@@ -460,11 +461,25 @@ public class App
         //     Console.Write(arr[i] + ",");
         // }
 
-       int[] array = [3,4,6,8,1,2,9,7,5];
-        MergeSort.mergeSort(array);
-        for (int i = 0; i < array.Length; i++){
-            Console.Write(array[i] + ", ");
+    //    int[] left =  [1, 3, 5];
+    //    int[] right =  [2, 4, 6];
+    //     List<int> sorted = new List<int>(TwoSortedMerge.mergeSort(left, right));
+    //     for (int i = 0; i < sorted.Count; i++){
+    //         Console.Write(sorted[i] + ", ");
+    //     }
+        // double[] arr = [3.1, 2.2, 1.3, 5.4, 4.5];
+        // FloatingMergeSort.floatMergeSort(arr);
+        // for (int i = 0; i < arr.Length; i++){
+        //     Console.Write(arr[i] + ", ");
+        // }
+
+        
+        Book[] arr = [new Book("A", 2001), new Book("B", 1999), new Book("C", 2010)];
+        ObjectMergeSort.objectMergeSort(arr);
+        for (int i = 0; i < arr.Length; i++){
+            Console.Write("("+ arr[i].title + "," + arr[i].year + ")");
         }
+        
     }
 
 }
