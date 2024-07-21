@@ -472,14 +472,43 @@ public class App
         // for (int i = 0; i < arr.Length; i++){
         //     Console.Write(arr[i] + ", ");
         // }
+        
+        // Book[] arr = [new Book("A", 2001), new Book("B", 1999), new Book("C", 2010)];
+        // ObjectMergeSort.objectMergeSort(arr);
+        // for (int i = 0; i < arr.Length; i++){
+        //     Console.Write("("+ arr[i].title + "," + arr[i].year + ")");
+        // }
+        
+        CityRoadNetwork city = new CityRoadNetwork();
 
-        
-        Book[] arr = [new Book("A", 2001), new Book("B", 1999), new Book("C", 2010)];
-        ObjectMergeSort.objectMergeSort(arr);
-        for (int i = 0; i < arr.Length; i++){
-            Console.Write("("+ arr[i].title + "," + arr[i].year + ")");
+        city.AddLocation("A");
+        city.AddLocation("B");
+        city.AddLocation("C");
+        city.AddLocation("D");
+        city.AddLocation("E");
+        city.AddLocation("F");
+
+
+        city.AddRoad("A","B");
+        city.AddRoad("B","C");
+        city.AddRoad("E","D");
+        city.AddRoad("D","B");
+        city.AddRoad("D","F");
+        city.AddRoad("E","F");
+
+        // city.PrintAllConnections();
+
+        List<string> path = city.FindShortestPath("A","F");
+
+
+        if(path != null){
+            Console.WriteLine(string.Join("=>", path));
         }
-        
+        else{
+            Console.WriteLine("no path found");
+
+        }
+
     }
 
 }
